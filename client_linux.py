@@ -4,7 +4,7 @@ s = socket.socket()
 # Same port number that we used in Server End
 port = 1998
 
-# This is the local IP address of Windows
+# This is the local IP address of Ubuntu on Virtual box
 s.connect(('10.0.2.2', port))
 while True:
     # data received
